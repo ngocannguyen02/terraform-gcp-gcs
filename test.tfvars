@@ -1,0 +1,6 @@
+bucket_name                               = "dev-test-1029"
+project_id                                = "pot-48511-ebf8"
+bucket_label                              = "test"
+service_account                           = "iacserviceaccount@pot-48511-ebf8.iam.gserviceaccount.com"
+role_service_account                      = "roles/storage.legacyBucketWriter"
+role_service_account_secondary            = "roles/storage.legacyObjectOwner"

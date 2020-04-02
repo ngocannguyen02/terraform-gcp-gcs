@@ -1,0 +1,12 @@
+name: tests
+title: Tests Google Cloud Storage bucket
+maintainer: Maintainer
+copyright: mantainer.com
+license: Apache-2.0
+summary: An InSpec Compliance Profile
+version: 1.0.0
+depends:
+  - name: gcp-resources
+    url: https://github.com/inspec/inspec-gcp/archive/v0.23.4.tar.gz
+supports:
+  - platform: gcp
